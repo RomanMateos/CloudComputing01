@@ -1,4 +1,4 @@
-total = int(input("Ingrese el total de la Cuenta"))
+total = int(input("Ingrese el total de la Cuenta:"))
 prop = int(input("Ingrese el porcentaje de la propina"))
 
 total_1 = total * prop / 100
