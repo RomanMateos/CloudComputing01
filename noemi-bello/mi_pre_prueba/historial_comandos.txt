@@ -1,0 +1,482 @@
+    1  sudo apt-get install git 
+    2  rooot
+    3  root
+    4  sudo <command>
+    5  root
+    6  man sudo_root
+    7  sudo passwd root
+    8  cd
+    9  sudo
+   10  sudo passwd
+   11  sudo user
+   12  pwd
+   13  ls
+   14  sudo passwd root
+   15  das
+   16  passwd
+   17  sudo passwd root
+   18  passwd
+   19  sudo apt-get install git
+   20  git --version 
+   21  ls
+   22  mkdir linux2
+   23  cd linux2
+   24  sudo apt-get install git
+   25  git --version
+   26  ls
+   27  mkdir linux2
+   28  cd linux2
+   29  nano linux2
+   30  ls
+   31  nano linux2
+   32  cat info.txt
+   33  sudo nano linux2
+   34  cat info.txt
+   35  nano linux2
+   36  ls
+   37  cat info.txt
+   38  cat info.linux2
+   39  git int
+   40  Git int
+   41  git int
+   42  git init
+   43  git config --global user.name "Noemi Bello"
+   44  git config --global user.email "noe.bello@duocuc.cl"
+   45  git config --list
+   46  git status 
+   47  git add
+   48  git status
+   49  git add.
+   50  git status
+   51  git add.
+   52  git add .
+   53  git status
+   54  '/home/vboxuser/linux2/linux2' 
+   55  git add .
+   56  git status
+   57  cd
+   58  lsb_release -a
+   59  sudo apt install tilix
+   60  sudo reboot
+   61  sudo apt-get install git
+   62  git --version
+   63  ls
+   64  mkdir linux2
+   65  cd linux2
+   66  git int
+   67  git config --global user.name "Noemi Bello"
+   68  git config --global user.email "noe.bello@duocuc.cl"
+   69  git config --list
+   70  git init
+   71  xclip -selection clipboard -o
+   72  sudo apt intall xclip
+   73  xclip -selection clipboard -o
+   74  sudo apt install xclip
+   75  xclip -selection clipboard -o
+   76  sudo apt remove clipman diodon
+   77  sudo apt install xclip
+   78  xclip -selection clipboard -o
+   79  ,
+   80  ,.
+   81  wget $(clip -selection clipboard -o)
+   82  git status
+   83  git add
+   84  git add .
+   85  git status
+   86  git remote add <noe.bello> <https://github.com/NoemiBello/Noe.bello.git>
+   87  git remote add origin <https://github.com/NoemiBello/Noe.bello.git>
+   88  git remote add https://github.com/NoemiBello/Noe.bello.git
+   89  git remote add noe.bello https://github.com/NoemiBello/Noe.bello.git
+   90  ls
+   91  git remote add https://github.com/NoemiBello/Noe.bello.git
+   92  [200~ git remote add [<options>] <name> <url>
+   93  >
+   94  git remote add  NoemiBello https://github.com/NoemiBello/Noe.bello.git
+   95  git remote -v
+   96  git status 
+   97  nano Noemi.txt
+   98  ls
+   99  git status 
+  100  git add 
+  101  git add Noemi.txt
+  102  git add .
+  103  git status 
+  104  git commit -m "Mi primer commit"
+  105  git push NoemiBello 
+  106  git push NoemiBello
+  107  xclip -selection clipboard -o
+  108  
+  109  xclip
+  110  xclip  -selection clipboard
+  111  cd linux2
+  112  git push NoemiBello
+  113  xclip -selection clipboard -o
+  114  sudo apt install xclip
+  115  xclip
+  116  wl-paste
+  117  echo "texto" 
+  118  [200~~
+  119  nano toke.txt
+  120  remove toke.txt
+  121  rm toke.txt
+  122  cat toke.txt
+  123  cat_realease -a
+  124  lsb_release -a
+  125  xclip
+  126  sudo install xclip
+  127  sudo install --help xclip
+  128  xclip -o
+  129  lsb_release -a
+  130  sudo bash /media/$USER/VBox_GAs*/VBoxLinuxAdditions.run
+  131  sudo reboot
+  133  git push NoemiBello Noe.bello
+  134  git push Noe.Bello
+  135  cd linux2
+  136  git push NoemiBello
+  137  git push NoemiBello main
+  138  git push NoemiBello Noe.Bello
+  139  git push Noe.Bello main
+  140  git add .
+  141  git status
+  142  nano modoprueba.txt
+  143  git add .
+  144  git status 
+  145  git commit -m "mi primer commit"
+  146  git push NoemiBello
+  147  ls
+  148  git push NoemiBello main
+  149  git push NoemiBello/Noe.bello main
+  150  main
+  151  git config --list
+  152  git remote -v
+  153  git ls-remote NoemiBello
+  154  git checkout main
+  155  git branch
+  156  git pull NoemiBello main
+  157  git branch
+  158  git branch -a
+  159  git checkout master
+  160  git branch -m master main
+  161  git branch
+  162  git push NoemiBello -u main
+  163  git pull NoemiBello
+  164  git push NoemiBello -u main
+  165  git pull NoemiBello main
+  166  git brach
+  167  giy branch
+  168  git branch
+  169  git config pull.rebase false
+  170  git pull
+  171  git branch --set-upstream-to=origin/main main~
+  172  git branch --set-upstream-to=origin/main main
+  173  git push -u origin main
+  174  git push -u NoemiBello main
+  175  git pull --rebase NoemiBello  main
+  176  git push -u NoemiBello main
+  177  ls
+  178  git ls-files
+  179  git rm README
+  180  git commit -m "Eliminado README.md"
+  181  git push
+  182  git ls-files
+  183  ls
+  184  git rm README.md
+  185  git commit -m "Eliminado README.md"
+  186  git push
+  187  ls
+  188  cd noemi.txt
+  189  cd Noemi.txt
+  190  cd Noemi.txt
+  191  cat Noemi.txt
+  192  nano Noemi.txt
+  193  ls
+  194  git ls-file
+  195  git ls-files
+  196  cd Noemi.txt
+  197  cat
+  198  ls -l
+  199  cat Noemi.txt
+  200  git clone https://github.com/NoemiBello/Noe.bello.git
+  201  ls
+  202  Noemi.txt
+  203  cat Noemi.txt
+  204  cat modoprueba.txt
+  205  mkdir linux.intermedio
+  206  cd linux.intermedio
+  207  ls
+  208  echo "hola archivo 1" > carpeta1.txt
+  209  echo "hola archivo 2" > carpeta2.txt
+  210  echo "hola archivo 3" > carpeta3.txt 
+  211  cat carpeta1.txt carpeta2txt carpeta3.txt > resumen.txt
+  212  cat carpeta1.txt carpeta2.txt carpeta3.txt > resumen.txt
+  213  nano carpeta1.txt
+  214  ls
+  215  miprimercomprimido.tar.gz carpeta1.txt carpeta2.txt carpeta3.txt
+  216  tar -czvf miprimercomprimido.tar.gz carpeta1.txt carpeta2.txt carpeta3.txt
+  217  tar -tfz miprimercogit clone https://github.com/NoemiBello/CloudComputing01.git
+  218  cd big-data-clase
+  219  git checkout main
+  220  git clone https://github.com/NoemiBello/CloudComputing01.git
+  221  cd CloudComputing01
+  222  git checkout main
+  223  git pull origin main
+  224  git checkout -b Noemi-bello-tarea
+  225  mkadir Noemi.bello
+  226  cd NoemiBello
+  227  cd Noemi.Bello
+  228  ls
+  229  cd Noemi.Bello
+  230  ls
+  231  cd Noemi.bello
+  232  mkdir noemi-bello
+  233  ls
+  234  cd noemi-bello
+  235  echo 'print("Hola, soy Noemi Bello")' > saludo.py 
+  236  git status
+  237  git add .
+  238  git commit -m "agrego carpeta y saludo en Python"
+  239  git push origin Noemi-Bello-tarea
+  240  git push origin NoemiBello
+  241  giy push origin Noemi-bello-tarea
+  242  git push orgin Noemi-bello-tarea
+  243  git push origin Noemi-bello-tarea
+  244  git remote add upstream https://github.com/NoemiBello/CloudComputing01.git
+  245  git fetch upstream
+  246  git checkout main 
+  247  git merge upstream/main
+  248  git push main
+  249  cd ..
+  250  git remote add upstream https://github.com/NoemiBello/CloudComputing01.git
+  251  git fetch upstream
+  252  git ckeckout main
+  253  git merge upstream/main
+  254  git push orgin main
+  255  ls
+  256  git merge upstream/main
+  257  git push origin main
+  258  ls
+  259  git remote upstream https://github.com/Bastyprof/CloudComputing01.git
+  260  git fetch upstream
+  261  git push origin Noemi-bello-tarea
+  262  git merge upstream/main
+  263  git push orgin main
+  264  git push origin Noemi-bello-tarea main
+  265  ls
+  266  pwd
+  267  cat
+  268  git remote add upstream https://github.com/Bastyprof/CloudComputing01.git
+  269  git fetch upstream
+  270  git checkout main
+  271  git merge upstream/main
+  272  git checkout main
+  273  git push origin main
+  274  git branch
+  275  git fetch --all
+  276  git branch -a
+  277  remotes/origin/ .
+  278  ls
+  279  git pull
+  280  ls
+  281  git log
+  282  git pull
+  283  git branch
+  284  git branch -r
+  285  git checkout main
+  286  git pull origin main
+  287  ls
+  288  cd ..
+  289  ls
+  290  cd CloudComputing01
+  291  ls
+  292  git log
+  293  git pul origin main
+  294  git --help
+  295  git branch -r
+  296  git log origin/main
+  297  git fetch
+  298  git log origin/main
+  299  git fetch origin
+  300  git status
+  301  ls -la
+  302  git branch
+  303  git checkout main 
+  304  git pull origin main 
+  305  pwd
+  306  ls -la
+  307  git branch
+  308  cat .gitignore
+  309  git branch 
+  310  ls -la
+  311  git fetch --all
+  312  git ls-tree -r origin/main --name-oi
+  313  git ls-tree -r origin/main --name-only
+  314  git reset --hard origin/main
+  315  git ls-tree -r origin/main --name-only
+  316  git fetch --all
+  317  git reset --hard origin/main
+  318  git log --online --graph --all
+  319  git log --oneline --graph --all
+  320  ls
+  321  git reset --hard upstream/main
+  322  NoemiBello
+  323  git reset --hard upstream/main
+  324  git push origin main --force
+  325  git checkout main
+  326  git reset --hard upstream/main
+  327  git push origin main --force
+  328  git checkout main
+  329  git fetch upstream
+  330  git reset --hard upstream/main
+  331  ls
+  332  reset --hard
+  333  git branch
+  334  git fetch upstream
+  335  git reset --hard upstream/main
+  336  ls
+  337  git branch -r
+  338  git fetch --all
+  339  git checkout upstream/ale-simp
+  340  git branch -r
+  341  git checkout origin/
+  342  git checkout origin/main
+  343  git checkout main
+  344  git checkout upstream/main
+  345  git checkout main~
+  346  git checkout main
+  347  ls
+  348  git branch -a
+  349  git status
+  350  cd Noemi-bello-tarea
+  351  cd CloudComputing01
+  352  ls
+  353  gitfetch upstream
+  354  git remote add upstream https://github.com/NoemiBello/CloudComputing01.git
+  355  git fetch upstream
+  356  git checkout main
+  357  git merge upstream/main
+  358  git push origin main
+  359  ls
+  360  git fetch --all
+  361  git reset --hard origin/main
+  362  git pull origin main 
+  363  ls -la
+  364  ls
+  365  nano saludos.py
+  366  nano saludo.py
+  367  cd Noemi-bello-tarea
+  368  cd noemi-bello
+  369  saludo.py
+  370  saludos.py
+  371  cd ..
+  372  saludo.py
+  373  nano saludo.py
+  374  cd noemi-bello
+  375  nano saludo.py
+  376  git clone https://github.com/Bastyprof/CloudComputing01.git 
+  377  cd CloudComputing01
+  378  git checkout main 
+  379  git pull origin main 
+  380  git checkout -b Noemi-bello-tarea
+  381  cd Noemi-bello-tarea
+  382  mkadir noemi-bello
+  383  mkdir noemi-bello
+  384  cd noemi-bello
+  385  echo 'print("Hola, soy Noemi Bello")' > saludo.py
+  386  nano saludos.py
+  387  nano saludo.py
+  388  ls
+  389  CuentaRestaurante = float(input)"Ingrese el total de la cuenta:$"))
+  390  total_cuenta = float (input("Ingrese el total de la cuenta"))
+  391  cd CloudComputing01
+  392  mkadir mi_pre_prueba
+  393  mkdir mi_pre_prueba
+  394  ls
+  395  rm mi_pre_prueba
+  396  ls
+  397  rm mi_pre_prueba
+  398  rm -r mi_pre_prueba
+  399  ls
+  400  cd CloudComputing01
+  401  git clone https://github.com/Bastyprof/CloudComputing01.git
+  402  git checkout main
+  403  git pull origin main
+  404  ls
+  405  cd noemi-bello
+  406  mkdir mi_pre_prueba
+  407  ls
+  408  nano info.txt
+  409  chmod 600 info.txt
+  410  ls -l
+  411  nano .miarchivosecreto.txt
+  412  ls
+  413  ls -a
+  414  find . -type f -name "*.txt"
+  415  nano info.txt
+  416  grep Noemi info.txt
+  417  mkdir a.txt
+  418  mkdir b.txt
+  419  nano a.txt
+  420  nano b.txt
+  421  ls
+  422  rm -r yes
+  423  ls
+  424  nano a.txt
+  425  nano b.txt
+  426  a.txt
+  427  remove a
+  428  ls
+  429  nano a.txt
+  430  ls
+  431  rm b.txt 
+  432  ls
+  433  rm -r a.txt
+  434  rm -r b.txt
+  435  rm -r a
+  436  rm -r b
+  437  ls
+  438  mkdir a.txt
+  439  ls
+  440  nano a.txt
+  441  rm -r a.txt
+  442  ls
+  443  nano a.txt
+  444  nano b.txt
+  445  ls
+  446  cat a.txtb.txt > saludo.txt
+  447  cat a.txt b.txt > saludo.txt
+  448  ls
+  449  cat saludo.txt
+  450  rm r- saludo.py
+  451  rm r- propina.py
+  452  ls
+  453  mv a.txt mi_pre_prueba
+  454  mv b.txt mi_pre_prueba
+  455  mv info.txt mi_pre_prueba
+  456  ls
+  457  cd mi_pre_prueba
+  458  ls
+  459  comprimido.tar.gz a.txt b.txt info.txt
+  460  mkdir extraidos
+  461  cd extraidos
+  462  cd ..
+  463* tar -czvf comprimido.tar.gz
+  464  tar -czvf archivos.tar.gz a.txt b.txt info.txt
+  465  cd extraidos
+  466  tar -xzvf archivos.tar.gz
+  467  ls
+  468  cd ..
+  469  ls
+  470  cd extraidos
+  471  tar -xzvf archivos.tar.gz
+  472  tar -xzvf archivos.tar.gz -C
+  473  tar -xzvf archivos.tar.gz -C extraidos
+  474  cd ..
+  475  tar -xzvf archivos.tar.gz -C extraidos
+  476  cd extraidos
+  477  ls
+  478  cd ..
+  479  echo -e "Juan,23\nAna,19\nPedro,31" > nombres.csv
+  480  awk -F, '{print $1}' nombres.csv
+  481  nano edad.py
+  482  cat edad.py
+  483  history > historial_comandos.txt
