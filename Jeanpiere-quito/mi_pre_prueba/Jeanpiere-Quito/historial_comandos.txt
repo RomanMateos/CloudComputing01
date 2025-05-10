@@ -1,0 +1,47 @@
+    1  sudo apt update
+    2  python 3
+    3  python --version
+    4  python
+    5  python3
+    6  mkdir mi_pre_prueba
+    7  cd mi_pre_prueba/
+    8  echo "Jeanpiere Quito" > info.txt
+    9  cp info.txt copia_info.txt
+   10  cat info.txt copia_info.txt 
+   11  rm copia_info.txt 
+   12  ls -l info.txt 
+   13  chmod 600 info.txt
+   14  touch .Jeanpiere_Quito
+   15  ls -la | grep Jeanpiere_Quito
+   16  find . -name "*.txt"
+   17  grep Jeanpiere info.txt
+   18  echo "hola" > a.txt
+   19  echo "mundo" > b.txt
+   20  cat a.txt b.txt > saludo.txt
+   21  tar -cvzf archivos.tar.gz *.txt
+   22  mkdir extraidos 
+   23  tar -xzvf archivos.tar.gz -C extraidos
+   24  echo -e "Juan,23
+   25  echo -e "Juan,23\nFeña,19\nAlvaro,31" > nombres.csv
+   26  awk -F ',' '{print $1}' nombres.csv 
+   27  Edad.py
+   28  nano Edad.py
+   29  Edad.py
+   30  ls
+   31  Edad.py
+   32  nano.py
+   33  nano Edad.py 
+   34  python Edad.py 
+   35  python3 Edad.py 
+   36  ls
+   37  nano Edad.py 
+   38  python3 Edad.py 
+   39  nano Edad.py 
+   40  python3 Edad.py 
+   41  ls
+   42  cd edad.txt
+   43  cat edad.txt
+   44  python3 Edad.py 
+   45  cat edad.txt
+   46  cd history
+   47  history > historial_comandos.txt
