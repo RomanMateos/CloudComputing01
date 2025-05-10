@@ -1,0 +1,62 @@
+    1  git clone https://github.com/Bastyprof/CloudComputing01
+    2  cd big-data-clase
+    3  cd moya-cristobal
+    4  ls
+    5  cd CloudComputing01
+    6  ls
+    7  cd moya-cristobal
+    8  mkdir examen_final
+    9  cd examen_final
+   10  nano datos.txt
+   11  cp datos.txt respaldo_datos.txt
+   12  ls
+   13  nano respaldo_datos.txt
+   14  rm respaldo_datos.txt
+   15  ls -l datos.txt
+   16  chmod 700 datos.txt
+   17  touch .registro
+   18  nano .registro
+   19  ls
+   20  find . -name "*.log"
+   21  grep moya datos.txt
+   22  nano entrada.txt
+   23  nano final.txt
+   24  cat entrada.txt final.txt > completo.txt
+   25  tar -czf comprimido.tar.gz *.txt
+   26  mkdir descomprimido
+   27  cd descomprimido
+   28  cd
+   29  cd ClouComputing01
+   30  cd CloudComputing01
+   31  cd moya-cristobal
+   32  cd examen_final
+   33  tar -xzf comprimido.tar.gz -C descomprimido
+   34  nano usuarios.csv
+   35  awf -F,{print >21}' usuarios.csv
+   36  ls
+   37  cd
+   38  history
+   39  cd CloudComputing01
+   40  cd moya-cristobal
+   41  cd examen_final
+   42  cat usuarios.csv
+   43  awk -F',' '$2 > 21´ usuarios.csv
+   44  cd CloudComputing01
+   45  cd moya-cristobal
+   46  cd examen_final
+   47  awk -F',' '$2 > 21' usuarios.csv
+   48  nano vida.py
+   49  cat vida.py
+   50  nano vida.py
+   51  cat dias.txt
+   52  ls
+   53  nano dias.txt
+   54  cat dias.txt
+   55  cd moya-cristobal
+   56  cd
+   57  cd moya-cristobal
+   58  cd CloudComputing01
+   59  cd moya-cristobal
+   60  ls
+   61  cd examen_final
+   62  history
