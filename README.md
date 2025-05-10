@@ -15,7 +15,7 @@ En esta guía aprenderás a:
 ---
 
 ## 🔄 Paso 1: Realizar un Fork del Repositorio
-1. Ingresa al repositorio del profesor (ejemplo: `https://github.com/profesor/big-data-clase`).
+1. Ingresa al repositorio del profesor (ejemplo: `https://github.com/Bastyprof/CloudComputing01.git`).
 2. Haz clic en el botón **Fork** (esquina superior derecha).
 3. Se creará una copia en tu cuenta de GitHub.
 
@@ -25,7 +25,7 @@ En esta guía aprenderás a:
 
 ```bash
 # Clona tu propio fork
-git clone https://github.com/tu_usuario/big-data-clase.git
+git clone https://github.com/Bastyprof/CloudComputing01.git
 cd big-data-clase
 ```
 
@@ -97,7 +97,7 @@ Si el repositorio original del profesor tiene cambios nuevos:
 
 ### Agrega el repositorio original como "upstream"
 ```bash
-git remote add upstream https://github.com/profesor/big-data-clase.git
+git remote add upstream https://github.com/Bastyprof/CloudComputing01.git
 ```
 
 ### Actualiza tu main con cambios del profesor

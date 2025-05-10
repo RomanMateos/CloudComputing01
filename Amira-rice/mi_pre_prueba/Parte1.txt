@@ -1,0 +1,16 @@
+mkdir mi_pre_prueba
+cd mi_pre_prueba/
+echo "Amira Rice Parra" > info.txt
+cp info.txt copia_info.txt
+ls
+cat info.txt copia_info.txt 
+rm copia_info.txt 
+ls
+info.txt
+chmod 600 info.txt 
+echo "Oculto" > .archivo_oculto.txt
+ls
+ls -a
+find find . -type f -name "*.txt"
+grep "Amira" info.txt
+nano Parte1.txt

@@ -1,0 +1,12 @@
+echo "Hola" > a.txt
+echo "Mundo" > b.txt
+cat a.txt b.txt > saludo.txt
+ls
+tar -czvf archivos.tar.gz a.txt b.txt saludo.txt 
+ls
+nano nombres.csv
+awk -F',' '{print $1}' nombres.csv
+Juan
+Ana
+Pedro
+

@@ -1,0 +1,27 @@
+*****Historial******
+
+1.- mkdir mi_pre_prueba
+2.- cd mi_pre_prueba/
+3.- nano info.txt
+4.- cp info.txt copia_info.txt
+5.- cat info.txt copia_info.txt
+6.- rm copia_info.txt
+7.- chmod 600 info.txt
+8.- nano .joseAntinao.txt(ArchivoOculto)
+9.- ls -lat
+10.- find -name "*.txt"
+11.- grep "Jose" info.txt
+12.- nano a.txt
+13.- nano b.txt
+14.- cat a.txt b.txt > saludo.txt
+15.- tar -czf archivos.tar.gz *.txt
+16.- mkdir extraidos
+17.- tar -xzf archivos.tar.gz -C extraidos/
+18.- nano nombres.csv
+19.- awk -F',' '{print $1}' nombres.csv
+20.- mkdir Jose-Antinao
+21.- mv *.txt Jose-Antinao/
+22.- mv Edad.py Jose-Antinao/
+23.- mv nombres.csv Jose-Antinao/
+24.- history
+

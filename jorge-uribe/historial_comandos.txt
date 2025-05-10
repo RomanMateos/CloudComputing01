@@ -1,0 +1,54 @@
+    1  apt-get install git
+    2  sudo apt-get install git
+    3  mkdir mi_pre_prueba
+    4  cd mi_pre_prueba
+    5  sudo echo "Jorge Uribe" > info.txt
+    6  ls
+    7  cp info.txt copia_info.txt
+    8  s
+    9  ls
+   10  cat info.txt copia_info.txt
+   11  rm copia_info.txt
+   12  ls
+   13  ls -l info.txt
+   14  chmod 600 info.txt
+   15  ls -l info.txt
+   16  touch .jorge
+   17  ls -a | grep alejandro
+   18  ls -a | grep jorge
+   19  find . -name "*.txt"
+   20  find . -jorge "*.txt"
+   21  find . -name "*.txt"
+   22  ls
+   23  grep "Jorge" info.txt
+   24  echo "Hola" > a.txt
+   25  echo "Mundo" > b.txt
+   26  cat a.txt b.txt > saludo.txt
+   27  ls
+   28  nano saludo.txt
+   29  tar -czvf archivo.ta.gz *.txt
+   30  mkdir extraidos
+   31  ls
+   32  tar -xzvf archivos.tar.gz -C extraidos
+   33  cd extaidos
+   34  s
+   35  ls
+   36  cd extraidos
+   37  ls
+   38  mkdir extraidos
+   39  tar -xzvf archivos.tar.gz -C extraidos
+   40  l
+   41  ls
+   42  cd ..
+   43  ls
+   44  echo -e "Juan,23\nAna,19\nPedro,31" > nombres.csv
+   45  awk -F, '{print $1}' nombres.csv
+   46  mkdir python
+   47  cd python
+   48  nano
+   49  python3 edad.py
+   50  ls
+   51  cd ..
+   52  mkdir jorge-uribe
+   53  cd jorge-uribe
+   54  history > historial_comandos.txt
