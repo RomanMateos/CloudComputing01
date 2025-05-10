@@ -1,0 +1,64 @@
+    1  mkdir examen_final
+    2  cd examen_final/
+    3  nano datos.txt
+    4  cp datos.txt respaldo_datos.txt
+    5  cat datos.txt respaldo_datos.txt 
+    6  ls
+    7  rm respaldo_datos.txt 
+    8  ls -l datos.txt 
+    9  chmod 600 datos.txt 
+   10  touch .registro
+   11  cd .registro
+   12  nano .registro
+   13  find .- name "*.log"
+   14  find .-name "*.log"
+   15  cd
+   16  sudo apt update
+   17  sudo apt-get install git -y
+   18  git clone https://github.com/lordable12/CloudComputing01
+   19  ls
+   20  cd CloudComputing01/
+   21  ls
+   22  cd Jea
+   23  cd Jeanpiere-quito/
+   24  ls
+   25  cd
+   26  cd examen_final/
+   27  cd 
+   28  cd examen_final/
+   29  cd
+   30  sudo apt install python3
+   31  cd examen_final/
+   32  grep datos.txt 
+   33  grep quito datos.txt
+   34  mkdir entrada.txt 
+   35  nano entrada.txt
+   36  nano entrada.txt/
+   37  ls
+   38  cd entrada.txt/
+   39  cd ..
+   40  rm entrada.txt/
+   41  rmdir entrada.txt
+   42  nano entrada.txt
+   43  nano final.txt
+   44  nano entrada.txt
+   45  nano final.txt 
+   46  cat entrada.txt final.txt > completo.txt
+   47  cat completo.txt 
+   48  tar -cvzf comprimido.tar.gz *.txt
+   49  mkdir descompromidis
+   50  tar -xzvf comprimido.tar.gz -C descompromidis
+   51* 
+   52  awk -F ','{print $1}'usuarios.csv
+   53  awk -F ','{print $1}' usuarios.csv
+   54  awk -F ',''{print $1}' usuarios.csv
+   55  awk -F ',''{print +21}' usuarios.csv
+   56  awk -F ',''{print $1}' usuarios.csv
+   57  awk -F ',''{print }' usuarios.csv
+   58  nano vida.py
+   59  python3 vida.py 
+   60  nano vida.py
+   61  python3 vida.py 
+   62  nano vida.py
+   63  python3 vida.py 
+   64  history > historial_comando.txt
