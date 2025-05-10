@@ -1,0 +1,44 @@
+sudo apt install git
+mkdir examen_final
+cd examen_final
+echo "Sebastian Hood, se.hood@duocuc.cl" -> datos.txt
+ls
+cp datos.txt -> respaldo_datos.txt
+ls
+cat datos.txt respaldp_datos.txt
+cat  datos.txt respaldo_datos.txt
+ls -l datos.txt
+echo "este es un archivo secreto" -> .registro.txt
+ls
+find . -name "*.log"
+grep "Hood" datos.txt
+echo "inicio" -> entrada.txt
+echo "fin" -> final.txt
+rm respaldo_datos.txt
+cat entrada.txt final.txt -> completo.txt
+ls
+tar -czvf comprimidos.tar.gz *.text
+tar -czvf comprimidos.tar.gz *. text
+tar -czvf comprimidos.tar.gz *. txt
+tar -czvf comprimidos.tar.gz *.txt
+mkdir descomprimido
+cd descomprimido
+tar -xzvf comprimidos.tar.gz -c descomprimidos
+tar -xzvf  -C descomprimido
+cd ..
+tar -xzvf comprimidos.tar.gz -C descomprimido
+echo " Carla, 20" -> usuarios.csv
+echo " Bruno, 25" -> usuarios.csv
+echo " Sofia, 19" -> usuarios.csv
+awk -f "{print $1,2 >18} usuarios.csv
+ls
+echo -e "Carla,20\nBruno,25\nSofía,19" > usuarios.csv
+awk -F',' '$2 > 21 {print $0}' usuarios.csv
+git init
+git config --global user.name "Sebastian"
+git confif --globale user.email "se.hood@duocuc.cl"
+git config --globale user.email "se.hood@duocuc.cl"
+git config --global user.email "se.hood@duocuc.cl"
+git clone https://github.com/sebhood/CloudComputing01
+history -> historial.txt
+history -w -> historial.txt
