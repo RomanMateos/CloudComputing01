@@ -1,0 +1,101 @@
+PARTE 1: COMANDOS BÁSICOS DE LINUX
+1. Crea una carpeta llamada 'mi_pre_prueba' y entra en ella.
+
+	mkdir mi_pre_prueba
+	cd mi_pre_prueba
+	
+2. Crea un archivo llamado 'info.txt' que contenga tu nombre completo.
+
+	nano info.txt -> Escribo mi nombre -> ctrl + o -> enter -> ctrl + x
+	
+3. Copia 'info.txt' a 'copia_info.txt'.
+
+	touch copia_info.txt
+	cp info.txt copia_info.txt
+	
+4. Muestra el contenido de ambos archivos en pantalla usando un solo comando.
+	
+	cat info.txt copia_info.txt
+	
+5. Elimina 'copia_info.txt'.
+	
+	rm copia_info.txt
+	
+6. Muestra los permisos del archivo 'info.txt'.
+
+	ls -l info.txt
+
+7. Cambia los permisos para que solo tú puedas leer y escribir 'info.txt'.
+
+	chmod 600 info.txt
+	"1° numero = permisos del propietario
+	 2° numero = permisos de grupo
+	 3° numero = permisos de otros
+	 
+	 6 = 2+4 permisos de lectura y escritura"
+
+8. Crea un archivo oculto con tu nombre y verifica que existe.
+
+	nano .ninja.txt
+	ls -a
+	
+9. Usa 'find' para buscar archivos '.txt' en tu carpeta.
+
+	find . -name "*txt"
+
+10. Usa 'grep' para buscar tu nombre dentro de 'info.txt'.
+
+	grep "Diego Eduardo Velozo Olguin" info.txt
+
+
+
+PARTE 2: COMANDOS INTERMEDIOS DE LINUX
+1. Crea archivos 'a.txt' con "Hola" y 'b.txt' con "Mundo", únelos en 'saludo.txt'.
+
+	nano a.txt
+	nano b.txt
+	cat a.txt b.txt > saludo.txt
+
+2. Comprime todos los archivos '.txt' en 'archivos.tar.gz'.
+	
+	tar -czvf archivos.tar.gz *.txt
+
+3. Extrae 'archivos.tar.gz' en una carpeta llamada 'extraidos'.
+
+	mkdir extraidos && tar -xzvf archivos.tar.gz -C extraidos
+
+4. Usa 'awk' para imprimir nombres de un archivo 'nombres.csv' con datos tipo:
+Juan,23
+Ana,19
+Pedro,31
+
+	awk -F ',' '{print $1}' nombres.csv
+	
+PARTE 3: EJERCICIO DE PYTHON
+Contexto:
+Estás desarrollando una pequeña aplicación de bienvenida. El programa debe pedir la edad de un
+usuario y calcular cuántos años faltan para que cumpla 100.
+Requisitos del archivo Edad.py':
+1. Imprime tu nombre.
+2. Solicita la edad del usuario.
+3. Calcula cuántos años le faltan para llegar a 100.
+4. Guarda el resultado en un archivo llamado 'edad.txt'.
+5. Muestra en pantalla el contenido de 'edad.txt'.
+
+	nano Edad.py
+	codigo de python:
+	nombre = input('Ingresa tu nombre: ')
+	edad = int(input('Ingresa tu edad: '))
+
+	edad2 = 100 - edad
+	mensaje = f'Hola {nombre}, en {edad2} años tendrás 100 años.'
+
+	print(mensaje) 
+	
+	with open('resultado.txt', 'w') as archivo:
+    		archivo.write(mensaje)
+    		
+    		
+    		
+
+
