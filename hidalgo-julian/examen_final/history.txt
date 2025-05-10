@@ -1,0 +1,65 @@
+alumno@alumno-virtual-machine:~/CloudComputing01/hidalgo-julian/examen_final$ history
+    1  sudo apt install git
+    2  git clone https://github.com/jhidalgo-duocuc/CloudComputing01.git
+    3  git config --global user.name "jhidalgo-duocuc"
+    4  git config --global user.name "juli.hidalgo@duocuc.cl"
+    5  git config --global user.name "jhidalgo-duocuc"
+    6  git config --global user.email "juli.hidalgo@duocuc.cl"
+    7  cd CloudComputing01/
+    8  cd hidalgo-julian/
+    9  mkdir examen_final
+   10  cd examen_final/
+   11  nano datos.txt
+   12  cp datos.txt > respaldo_datos.txt
+   13  cp datos.txt respaldo_datos.txt
+   14  ls
+   15  cat datos.txt respaldo_datos.txt
+   16  rm respaldo_datos.txt
+   17  ls -la datos.txt
+   18  chmod 600 "datos.txt"
+   19  ls -la datos.txt
+   20  nano .registro
+   21  find -name "*.log"
+   22  grep -i hidalgo datos.txt
+   23  echo "Inicio" > entrada.txt
+   24  echo "Fin">  final.txt
+   25  ls
+   26  cat entrada.txt  final.txt > "completo.txt" 
+   27  ls
+   28  cat completo.txt
+   29  tar -czvf comprimido.tar.gz
+   30  tar -czvf comprimido.tar.gz *.txt
+   31  mkdir descomprimido
+   32  tar -xzvf comprimido.tar.gz -C  descomprimido
+   33  cd descomprimido/
+   34  ls
+   35  cd ..
+   36  echo -e "Carla,20\nBruno,25\nSofia,19" > usuarios.csv
+   37  ls
+   38  cat usuarios.csv 
+   39  awk -F ',' '{print $1 > 21}' nombres.csv
+   40  awk -F ',' '{print $1 > 21}' usuarios.csv
+   41  nano vida.py
+   42  python3 vida.py
+   43  nano vida.py
+   44  python3 vida.py
+   45  python vida.py
+   46* python --ver
+   47  python2 vida.py
+   48  nano vida.py
+   49  python vida.py
+   50  python3 vida.py
+   51  ls
+   52  cat dias.txt
+   53  git branch examen
+   54  git status
+   55  git branch examen
+   56  git checkout examen
+   57  git status
+   58  git add .
+   59  git status
+   60  git commit -m "Subo mis archivos del examen al repositorio de git"
+   61  push origin examen
+   62  git push origin examen
+   63  history
+
