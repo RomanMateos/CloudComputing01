@@ -1,0 +1,73 @@
+Parte 1
+    1  sudo apt-get update
+    2  sudo apt-get install git
+    3  git --version
+    4  git config --global user.name amirosa
+    5  git config --global user.email amiraa@live.cl
+    6  git config --list
+    7  git init
+    8  git clone https://github.com/Amirosaa/CloudComputing01.git
+    9  git checkout main
+   10  git checkout master
+   11  git checkout -b Amira-Rice-Prueba
+   12  ls
+   13  cd CloudComputing01/
+   14  ls
+   15  cd Amira-rice/
+   16  mkdir examen_final
+   17  echo "am.rice@duocuc.cl" > datos.txt
+   18  cp datos.txt respaldo_datos.txt
+   19  ls
+   20  mv datos.txt examen_final/
+   21  ls
+   22  mv respaldo_datos.txt examen_final/
+   23  ls
+   24  cd examen_final/
+   25  LS
+   26  ls
+   27  cat datos.txt respaldo_datos.txt
+   28  rm respaldo_datos.txt
+   29  ls
+   30  ls -l datos.txt
+   31  chmod 600 datos.txt
+   32  ls -l datos.txt
+   33  echo "ayuda" > .registro.txt
+   34  ls
+   35  ls -a
+   36  find . -type f -name *.log
+   37  grep "rice" datos.txt
+   38  ls
+
+Parte 2
+   39  echo "Inicio" > entrada.txt
+   40  echo "Fin" > final.txt
+   41  ls
+   42  cat entrada.txt final.txt > completo.txt
+   43  ls
+   44  tar -czvf comprimido.tar.gz *txt
+   45  mkdir descomprimido
+   46  ls
+   47  mv comprimido.tar.gz descomprimido/
+   48  ls
+   49  cd descomprimido/
+   50  ls
+   51  tar -xzvf comprimido.tar.gz
+   52  ls
+   53  cd ..
+   54  nano usuarios.csv
+   55  cat usuarios.csv
+   56  awk -F',' >21'{print$2}'
+   57  awk -F',' '$2 >21 { print $0 }'
+   58  awk -F',' '$2 >21 {print $2}'
+   59  awk -F',' '$2>21{print$2}'
+   60  awk -F',' '$2>21{print$2}' usuarios.csv
+
+Parte 3
+   61  nano vida.py
+   62  python3 vida.py
+   63  nano vida.py
+   64  python3 vida.py
+   65  ls
+   66  cat 'dias.txt'
+   67  history > historial_prueba.txt
+
