@@ -1,0 +1,60 @@
+Parte 1
+    1  git clone https://github.com/Bastyprof/CloudComputing01
+    2  ls
+    3  cd CloudComputing01
+    4  ls
+    5  cd ale-simp
+    6  ls
+    7  mkdir examen_final
+    8  cd examen_final
+    9  nano datos.txt
+   10  cat datos.txt
+   11  cp datos.txt respaldo_datos.txt
+   12  cat respaldo_datos.txt
+   13  cat datos.txt respaldo_datos.txt
+   14  rm -r respaldo_datos.txt
+   15  ls
+   16  ls -l datos.txt
+   17  chmod 700 datos.txt
+   18  touch .registro
+   19  touch .registro.txt
+   20  ls
+   21  ls -a
+   22  rm .registro
+   23  rm . registro.txt
+   24  ls -a
+   25  rm .registro.txt
+   26  echo "archivo oculto" > ~/.registro
+   27  ls -a
+   28  ls -la
+   29  nano ~/.registro
+   30  find ~/examen_final -type f -name ".*log"
+   31  grep simpertigue datos.txt
+   32  nano comandos.txt
+   33  history
+
+Parte 2 y 3
+
+  34  nano comandos.txt
+   35  echo "Inicio" > entrada.txt
+   36  echo "Fin" > final.txt
+   37  cat entrada.txt final.txt > completo.txt
+   38  ls
+   39  tar -czf comprimido.tar.gz *.txt
+   40  ls
+   41  tar -xzf comprimido.tar.gz -C descomprimido
+   42  mkdir descomprimido
+   43  tar -xzf comprimido.tar.gz -C descomprimido
+   44  ls
+   45  echo -e "Carla,20\nBruno,25\nSofia,19" > usuarios.csv
+   46  awk -F ',' '$2 > 21' usuarios.csv
+   47  nano vida.py
+   48  python3 vida.py
+   49  nano vida.py
+   50  python3 vida.py
+   51  ls
+   52  dias.txt
+   53  cat dias.txt
+   54  nano vida.py
+   55  python3 vida.py
+   56  history
