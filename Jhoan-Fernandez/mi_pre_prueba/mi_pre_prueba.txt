@@ -1,0 +1,55 @@
+# Parte 1 Comandos basicos
+mkdir mi_pre_prueba
+nano info.txt
+cp info.txt copia_info.txt
+cat info.txt copia_info.txt
+rm copia_info.txt
+ls -l info.txt
+chmod 600 info.txt
+touch .sebas.txt
+nano .sebas.txt
+ls -a
+find *.txt
+find . -type f -name "*.txt" # Muestra archivo oculto
+grep "Jhoan Sebastian Fernandez Salinas" info.txt
+
+# Parte 2 Comandos intermedios:
+cat a.txt b.txt > saludo.txt
+cat saludo.txt # mostrar en pantalla
+tar -czvf archivos.tar.gz *.txt # comprime todos los .txt
+tar -xzvf archivos.tar.gz -C extraidos/
+awk -F',' '{print $1, $2}' nombres.csv
+
+
+# Parte 3 Ejercicio python:
+python3 Edad.py > edad.txt # guardar contenido en .txt
+
+
+# Para configurar usuario en git:
+git config --global user.name "Sebastian Fernandez"
+git config --global user.email "sebastian.fernandezsalinas16@gmail.com"
+
+# Clonar mi Fork a mi pc:
+git clone https://github.com/Harko018/CloudComputing01.git
+
+# Cambia a la rama principal y actualiza:
+git checkout main 
+git pull origin main 
+
+# Crea una rama nueva:
+git checkout -b pre-prueba 
+
+# Verifica los cambios:
+git status
+
+# Agrega los archivos nuevos:
+git add .
+
+# Crea un commit:
+git commit -m "Agrego pre-prueba"
+
+# Sube tu rama al repositorio remoto
+git push origin Jhoan-Fernandez
+
+Crear el Pull Request (PR)
+

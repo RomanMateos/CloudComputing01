@@ -1,0 +1,36 @@
+Parte 1
+    1  git clone https://github.com/Bastyprof/CloudComputing01
+    2  ls
+    3  cd CloudComputing01
+    4  ls
+    5  cd ale-simp
+    6  ls
+    7  mkdir examen_final
+    8  cd examen_final
+    9  nano datos.txt
+   10  cat datos.txt
+   11  cp datos.txt respaldo_datos.txt
+   12  cat respaldo_datos.txt
+   13  cat datos.txt respaldo_datos.txt
+   14  rm -r respaldo_datos.txt
+   15  ls
+   16  ls -l datos.txt
+   17  chmod 700 datos.txt
+   18  touch .registro
+   19  touch .registro.txt
+   20  ls
+   21  ls -a
+   22  rm .registro
+   23  rm . registro.txt
+   24  ls -a
+   25  rm .registro.txt
+   26  echo "archivo oculto" > ~/.registro
+   27  ls -a
+   28  ls -la
+   29  nano ~/.registro
+   30  find ~/examen_final -type f -name ".*log"
+   31  grep simpertigue datos.txt
+   32  nano comandos.txt
+   33  history
+
+Parte 2

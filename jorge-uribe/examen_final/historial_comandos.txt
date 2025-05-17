@@ -1,0 +1,70 @@
+    1  sudo apt install git
+    2  git clone https://github.com/TU_USUARIO/NOMBRE_REPO.git
+    3  git clone https://github.com/alebalb/CloudComputing01.git
+    4  ls
+    5  cd CloudComputing01
+    6  ls
+    7  cd ..
+    8  git clone https://github.com/Bastyprof/CloudComputing01.git
+    9  ls
+   10  cd CloudComputing01
+   11  ls
+   12  cd jorge-uribe
+   13  mkdir examen_final
+   14  cd examen_final
+   15  echo "jo.uribeb@duocuc.cl" > datos.txt
+   16  ls
+   17  cp datos.txt respaldo_datos.txt
+   18  ls
+   19  cat datos.txt respaldo_datos.txt
+   20  rm respaldo_datos.txt
+   21  ls
+   22  chown datos.txt
+   23  ls -l datos.txt
+   24  chmod 600 datos.txt
+   25  ls
+   26  touch .registro
+   27  ls
+   28  find . -.log  "*jorge-uribe"
+   29  grep "uribe" datos.txt
+   30  echo "Inicio" > entrada.txt
+   31  ls
+   32  echo "Fin" > final.txt
+   33  ls
+   34  tar -czvf archivos.tar.gz *.txt
+   35  ls
+   36  rm archivos.tar.gz
+   37  ls
+   38  cat entrada.txt final.txt > completo.txt
+   39  ls
+   40  tar -czvf comprimido.tar.gz *.txt
+   41  ls
+   42  mkdirdescomprimido
+   43  ls
+   44  sudo mkdir descomprimido
+   45  ls
+   46  tar -xzvf archivos.tar.gz -C descomprimido
+   47  tar -xzvf comprimido.tar.gz -C descomprimido
+   48  sudo tar -xzvf comprimido.tar.gz -C descomprimido
+   49  ls
+   50  cd descomprimido
+   51  ls
+   52  cd..
+   53  cd ..
+   54  echo -e "Carla,20/Bruno,25/Sofía,19 > usuarios.csv
+
+awk -F',' '{print $1}' nombres.csv
+   55  echo"Carla,20/Bruno,25/Sofía,19" > usuarios.csv
+   56  ls
+   57  awk -F, '{print $1}' nombres.csv
+   58  echo"Carla,20/Bruno,25/Sofía,19" > usuarios.csv
+   59  sudo echo"Carla,20/Bruno,25/Sofía,19" > usuarios.csv
+   60  ls
+   61  nano 
+   62  python3 vida.py
+   63  ls
+   64  sudo python3 vida.py
+   65  nano vida.py
+   66  sudo python3 vida.py
+   67  nano vida.py
+   68  history > historial_comandos.txt

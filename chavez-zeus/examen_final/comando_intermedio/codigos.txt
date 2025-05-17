@@ -1,0 +1,24 @@
+comandos básicos Linux
+1 mkdir examen_final; cd examen_final
+2 echo "ze.chavez@duocuc.cl"
+3 cp dato.txt respaldo_datos.txt
+4 cat dato.txt respaldo_datos.txt
+5 rm respaldo_datos.txt
+6 ls -l dato.txt
+7 chmod 600 info.txt
+8 echo "archivo secreto" > .registro.txt
+9 find *.log
+10 grep chavez dato.txt
+
+Comandos intermedios
+
+1 echo "Inicio" > entrada.txt
+  echo "Fin" > final.txt
+  cat entrada.txt final.txt > completo.txt
+2 tar -cvzf archivos.tar.gz *.txt
+3 mkdir descomprimido
+  tar -xzvf archivos.tar.gz -C extraidos
+4 echo -e "Carla,20\nBruno,25\nSofia,19" > usuarios.csv
+  awk -F "," '$2>21 {print $1, $2 }' usuarios.csv
+
+

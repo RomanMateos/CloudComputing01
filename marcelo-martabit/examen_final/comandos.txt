@@ -1,0 +1,38 @@
+# Set up
+
+sudo apt-get install git
+git --versión
+git config --global user.name "marcelo martabit"
+git config --global user.email "mmartabit182@gmail.com"
+git config --list
+
+git clone https://github.com/xelomartabit/CloudComputing01.git
+git checkout -b prueba_cloud
+
+# Parte 1
+
+1. mkdir examen_final
+cd examen_final/
+2. echo "ma.martabit@duocuc.cl" > datos.txt
+3. cp datos.txt respaldo_datos.txt
+4. cat datos.txt respaldo_datos.txt
+5. rm respaldo_datos.txt
+6. ls -l
+7. chmod u=rw,g=,o= datos.txt
+8. echo "hola" > .registro
+9. find *.log
+10. grep "martabit" datos.txt
+
+# Parte 2
+
+1. echo "Inicio" > entrada.txt
+echo "Fin" > final.txt
+cat entrada.txt final.txt > completo.txt
+2. tar -czvf comprimido.tar.gz *.txt
+3. mkdir descomprimido
+tar -xzvf comprimido.tar.gz -C descomprimido/
+4. awk -F "," ' {if ($2 > 21) print$1 }' usuarios.csv
+
+# Parte 3
+
+5. cat dias.txt

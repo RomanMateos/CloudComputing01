@@ -1,0 +1,26 @@
+Examen
+
+Parte 1
+1. mkdir examen_final
+2. nano datos.txt
+3. cp datos.txt respaldo_datos.txt
+4. cat datos.txt respaldo_datos.txt
+5. rm respaldo_datos.txt
+6. ls -l datos.txt
+7. chmod 600 datos.txt
+8. nano .registro.txt
+9. find *.log
+10. grep "fernandez" datos.txt
+
+
+parte 2
+1. nano entrada1.txt
+1. nano final.txt
+1. cat entrada1.txt final.txt > completo.txt
+2. tar -czvf comprimido.tar.gz *.txt
+3. mkdir descomprimido
+3. tar -xzvf comprimido.tar.gz -C descomprimido/
+4. nano usuarios.csv
+4. awk -F"," '$2>21 {print $1, $2}' usuarios.csv
+
+

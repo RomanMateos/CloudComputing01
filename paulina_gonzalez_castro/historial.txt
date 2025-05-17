@@ -1,0 +1,71 @@
+PARTE 1: COMANDOS BÁSICOS DE LINUX
+
+1. Crea una carpeta llamada 'mi_pre_prueba' y entra en ella
+mkdir mi_pre_prueba
+cd mi_pre_prueba
+
+2. Crea un archivo llamado 'info.txt' que contenga tu nombre completo.
+echo "Paulina Francisca Gonzalez Castro" > info.txt
+
+3. Copia 'info.txt' a 'copia_info.txt'.
+cp info.txt copia_info.txt
+
+4. Muestra el contenido de ambos archivos en pantalla usando un solo comando.
+cat info.txt copia_info.txt
+
+5. Elimina 'copia_info.txt'.
+rm copia_info.txt
+
+6. Muestra los permisos del archivo 'info.txt'.
+ls -l info.txt
+
+7. Cambia los permisos para que solo tú puedas leer y escribir 'info.txt'
+chmod 600 info.txt
+
+8. Crea un archivo oculto con tu nombre y verifica que existe.
+echo "paulinaGonzalezC" > .paulinaGonzalezC
+ls -la | grep paulinaGonzalezC
+
+9. Usa 'find' para buscar archivos '.txt' en tu carpeta.
+find . -name "*.txt"
+
+10. Usa 'grep' para buscar tu nombre dentro de 'info.txt'
+grep "paulinaGonzalezC" info.txt
+
+
+PARTE 2: COMANDOS INTERMEDIOS DE LINUX
+
+1. Crea archivos 'a.txt' con "Hola" y 'b.txt' con "Mundo", únelos en 'saludo.txt'.
+echo "Hola" > a.txt
+echo "Mundo" > b.txt
+cat a.txt b.txt > saludo.txt
+
+2. Comprime todos los archivos '.txt' en 'archivos.tar.gz'.
+tar -czvf archivos.tar.gz *.txt
+
+3. Extrae 'archivos.tar.gz' en una carpeta llamada 'extraidos'
+mkdir extraidos
+tar -xzvf archivos.tar.gz -C extraidos
+
+4. Usa 'awk' para imprimir nombres de un archivo 'nombres.csv' con datos tipo:
+awk -F',' '{ print $1 }' nombres.csv
+
+PARTE 3: EJERCICIO DE PYTHON
+
+Contenido del archivo edadParaCumplir100.py
+
+nombre = input("Ingresa tu nombre: ")
+edad = int(input("Ingresa tu edad: "))
+faltaPara100 = 100 - edad
+
+if edad < 100:
+    print(f"Le faltan {faltaPara100} años para llegar a los 100' .")
+else:
+    print("Ya cumplió los 100 años")
+
+
+with open("edad.txt", "w") as archivo:
+    archivo.write(f"Te faltan {faltaPara100} años para cumplir 100.\n")
+
+with open("edad.txt", "r") as archivo:
+    print(archivo.read())
