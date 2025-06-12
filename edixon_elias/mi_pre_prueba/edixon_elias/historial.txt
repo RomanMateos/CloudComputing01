@@ -1,0 +1,78 @@
+    1  apt install git
+    2  git --version
+    3  sudo apt install git
+    4  sudo apt install python3
+    5  python3 --version
+    6  git config --global user.name "Edi-Eli"
+    7  git config --global user.email "edixonelias4@gmail.com"
+    8  git --list
+    9  git config --list
+   10  ls
+   11  mkdir edixon_elias
+   12  cd edixon_elias/
+   13  git init
+   14  git clone https://github.com/Bastyprof/CloudComputing01.git
+   15  ls
+   16  cd CloudComputing01/
+   17  ls
+   18  cd edixon_elias/
+   19  ls
+   20  mkdir mi_pre_prueba
+   21  cd mi_pre_prueba/
+   22  nano info.txt
+   23  cp info.txt copia_info.txt
+   24  ls
+   25  cat info.txt copia_info.txt 
+   26  ls
+   27  rm copia_info.txt 
+   28  ls
+   29  ls -l
+   30  chmod 600 info.txt 
+   31  ls -l
+   32  nano .edixon.txt
+   33  ls
+   34  ls -a
+   35  find .-name"*.txt"
+   36  find .-name "*.txt"
+   37  find -name "*.txt"
+   38  grep -i "edixon" info.txt 
+   39  nano a.txt
+   40  ls
+   41  cat a.txt 
+   42  fg
+   43  nano b.txt
+   44  cat a.txt b.txt > saludo.txt
+   45  ls
+   46  cat saludo.txt 
+   47  tar -czvf archivos.tar.gz a.txt b.txt info.txt 
+   48  ls
+   49  tar -czvf archivos.tar.gz a.txt b.txt info.txt saludo.txt 
+   50  ls
+   51  tar -xzvf archivos.tar.gz 
+   52  ls
+   53  nano nombres.csv
+   54  awk -F',' 'NR==1 {for(i=1;i<=NF;i++)} print $1' nombres.csv
+   55  awk -F',' 'NR==1 {for(i=1;i<=NF;i++) print $1}' nombres.csv
+   56  awk -F, 'NR==1 {print $0}'
+   57  awk -F, 'NR==1 {print $0}' nombres.csv
+   58  awk -F, '$2>=18 {print $0}' nombres.csv
+   59  awk -F',' 'NR==1 {print $0}' nombres.csv
+   60  nano Edad.py
+   61  python3 Edad.py 
+   62  nano Edad.py
+   63  python3 Edad.py 
+   64  nano Edad.py
+   65  python3 Edad.py 
+   66  nano Edad.py
+   67  python3 Edad.py 
+   68  nano Edad.py
+   69  python3 Edad.py 
+   70  ls
+   71  cat edad.txt 
+   72  ls
+   73  pwd
+   74  echo history > historial.txt
+   75  ls
+   76  cat historial.txt 
+   77  history
+   78  history > historial.txt

@@ -1,0 +1,73 @@
+# Set up
+
+sudo apt-get install git
+git --version
+git config --global user.name "marcelo martabit"
+git config --global user.email "mmartabit182@gmail.com"
+git config --list
+git clone https://github.com/xelomartabit/CloudComputing01.git
+cd CloudComputing01/
+git checkout main
+git pull origin main
+git checkout -b pre_prueba_cloud
+cd marcelo-martabit/
+
+# Parte 1
+
+mkdir mi_pre_prueba
+cd mi_pre_prueba/
+echo "Marcelo Martabit Donoso" > info.txt
+cp info.txt copia_info.txt
+cat info.txt copia_info.txt
+rm copia_info.txt 
+ls -l info.txt
+chmod 600 info.txt
+echo "Marcelo Martabit Donoso" > .archivo_oculto.txt
+ls -a
+find *.txt
+grep "Marcelo Martabit Donoso" info.txt 
+
+# Parte 2
+
+echo "Hola" > a.txt
+echo "Mundo" > b.txt
+cat a.txt b.txt > saludo.txt
+cat saludo.txt
+tar -czvf archivos.tar.gz *.txt
+mkdir extraidos
+tar -xzvf archivos.tar.gz -C extraidos/
+nano nombres.csv
+Juan,23
+Ana,19
+Pedro,31
+awk -F "," '{print $1}' nombres.csv
+
+# Parte 3
+
+nano edad.py
+nombre  = input("Ingresa tu nombre: ")
+edad = int(input("Ingresa tu edad: "))
+
+diff = 100 - edad
+
+resultado = f"Hola {nombre} \nTe faltan {diff} anos para llegar a 100 anos de edad\n"
+
+with open("edad.txt","w") as file:
+    file.write(resultado)
+
+python3 edad.py
+"Marcelo"
+"32"
+
+cat edad.txt
+Hola Marcelo 
+Te faltan 68 anos para llegar a 100 anos de edad
+
+(nota: utf-8 code error por usar ñ)
+
+# Entrega
+
+git add .
+git status
+git commit -m "Agrego Pre Prueba"
+git push origin pre_prueba_cloud

@@ -1,0 +1,44 @@
+    1  mkdir mi_pre_prueba
+    2  cd mi_pre_prueba
+    3  echo "danae aliante" > info.txt
+    4  cp info.txt copia_info.txt
+    5  cat info.txt copia_info.txt
+    6  rm coía_info.txt
+    7  rm copia_info.txt
+    8  ls -l info.txt
+    9  chmod 600 info.txt
+   10  touch.oculto.txt
+   11  touch .oculto.txt
+   12  ls -a
+   13  find. -name "*.txt"
+   14  sudo apt update
+   15  sudo apt install findutils
+   16  find. -name "*.txt"
+   17  find . -name "*.txt"
+   18  grep "danae" info.txt
+   19  echo "hola" > a.txt
+   20  echo "mundo" > b.txt
+   21  cat a.txt b.txt 
+   22  cat a.txt b.txt > saludo.txt
+   23  tar -czf archivos.tar.gz -C extraidos
+   24  mkdir extraidos
+   25  cp saludo.txt extraidos/
+   26  tar -czf archivos.tar.gz -C extraidos
+   27  tar xzf archivos.tar.gz -C extraidos
+   28  tar xzf archivos.tar.gz a.txt b.txt
+   29  ls .*txt
+   30  tar -czf archivos.tar.gz *.txt
+   31  mkdir -p extraidos
+   32  tar -czf archivos.tar.gz -C extraidos
+   33  ls *.txt
+   34  tar -czf archivos.tar.gz *.txt
+   35  mkdir extraidos
+   36  tar -czf archivos.tar.gz -C extraidos
+   37  tar xzf archivos.tar.gz -C extraidos
+   38  echo -e "juan,23\nAna.19\nPedro,31" > nombres.csv
+   39  awk -F, '{print $1}' nombres.csv
+   40  nano edad.py
+   41  python3 edad.py
+   42  nano edad.py
+   43  python3 edad.py
+   44  history > comandos .txt

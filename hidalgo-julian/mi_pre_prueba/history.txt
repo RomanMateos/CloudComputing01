@@ -1,0 +1,36 @@
+1  mkdir Cloud
+2  cd ./Cloud/
+3  mkdir mi_pre_prueba
+4  cd ./mi_pre_prueba/
+5  echo "Julian Hidalgo" > info.txt
+6  ls
+7  cp info.txt copia_info.txt
+8  cat info.txt copia_info.txt
+9  rm copia_info.txt
+10 ls
+11 chmod 600 info.txt
+12 ls -la
+13 touch .julian
+14 ls -la
+15 find -name "*.txt"
+16 grep -i julian "info.txt"
+17 echo "Hola" > a.txt
+18 ls
+19 echo "Mundo" > b.txt
+20 cat a.txt b.txt > "saludo.txt"
+21 cat saludo.txt
+22 tar -czvf archivos.tr.gz *.txt
+23 mkdir extraidos
+24 tar -xzf archivos.tr.gz -C extraidos
+25 cd extraidos
+26 ls
+27 cd ..
+28 echo -e "Juan,23\nAna,19\Pedro,31" > nombres.csv
+29 ls
+30 cat nombres.csv
+31 rm nombres.csv
+32 echo -e "Juan,23\nAna,19\nPedro,31" > nombres.csv
+33 cat nombres.csv
+34 awk -F ',' '{print $1}' data.csv
+35 nano Edad.py
+36 cat edad.txt

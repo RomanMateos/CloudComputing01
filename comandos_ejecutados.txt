@@ -1,0 +1,91 @@
+    1  cd examen_final
+    2  echo "d.cuevasd@duocuc.cl > datos.txt
+    3  cd examen_final
+    4  cd examen_final 
+    5  echo "d.cuevasd@duocuc.cl" > datos.txt
+    6  cp datos.txt copia_datos.txt
+    7  cat datos.txt copia_datos.txt
+    8  rm copia_datos.txt
+    9  ls -l datos.txt
+   10  chmod 600 datos.txt
+   11  ls -l datos.txt
+   12  touch .registro
+   13  ls -la | grep .registro
+   14  find . -name "*.log"
+   15  grep "Cuevas" datos.txt
+   16  git clone https://github.com/danyblnc/CloudComputing01.git
+   17  sudo apt instal git
+   18  sudo apt install git
+   19  cd CloudComputing01
+   20  ls
+   21  cd
+   22  ls
+   23  git clone https://github.com/danyblnc/CloudComputing01.git
+   24  cd Cloud.Computing01
+   25  ls
+   26  cd CloudComputing01/
+   27  ls
+   28  mkdir examen_final
+   29  cd examen_final
+   30  echo "d.cuevasd@duocuc.cl > datos.txt
+   31  cd examen_final 
+   32  cp examen_final
+   33  cp exmanen_final
+   34  cp --help
+   35  cp examen_final
+   36  ls 
+   37  ls CloudComputing01
+   38  cd CloudComputing
+   39  mkdir examen_final
+   40  cd examen_final
+   41  echo "d.cuevasd@duocuc.cl" > datos.txt
+   42  cp datos.txt copia_datos.txt
+   43  cat datos.txt copia_datos.txt
+   44  rm copia_datos.txt
+   45  ls -l datos.txt
+   46  chmod 600 datos.txt
+   47  ls -l datos.txt
+   48  echo "Hola" .registro 
+   49  ls -la | grep .registro
+   50  find . -name "*.log"
+   51  grep "cuevas" datos.txt
+   52  echo "Inicio" > entrada.txt
+   53  echo "Fin" > final.txt
+   54  cat entrada.txt final.txt >completo.txt
+   55  cat saludo.txt
+   56  cat completo.txt
+   57  tar -czvf comprimido.tar.gz *.txt
+   58  mkdir descomprimido
+   59  tar -xzyf comprimido.tar.gz -C descomprimido
+   60  tar -xzvf comprimido.tar.gz -C descomprimido
+   61  ls -l descomprimido
+   62  echo "Carla,20" > nombres.csv
+   63  echo "Bruno,25" >> nombres.csv
+   64  echo "Sofia,19" >> nombres.csv
+   65  awk -F, '{print $1}' nombres.csv
+   66  nano Vida.py
+   67  python3 Vida.py
+   68  nano Vida.py
+   69  python3 Vida.py
+   70  nano Vida.py
+   71  python 3 Vida.py
+   72  python3 Vida.py
+   73  nano Vida.py
+   74  python3 Vida.py
+   75  nano Vida.py
+   76  python 3 Vida.py
+   77  python3 Vida.py
+   78  nano Vida.py
+   79  cd
+   80  mkdir Daniela Cuevas
+   81  cp -r ~/examen_final/* ~/examen_final/
+   82  history > comandos_ejecutados.txt
+   83  cp comandos_ejecutados.txt ~/Daniela Cuevas/
+   84  cd CloudComputing01
+   85  git checkout -b Prueba2
+   86  cp -r ~/Daniela-Cuevas/*
+   87  cp -r ~/Daniela-Cuevas/* .
+   88  cd ~
+   89  mkdir Daniela-Cuevas
+   90  cp -r ~/examen_final/* ~/Daniela-Cuevas/
+   91  history > comandos_ejecutados.txt
