@@ -1,0 +1,29 @@
+  Parte 1  
+1  mkdir examen_final
+    2  cd examen_final/
+    3  echo "marca.gonzalezp@duocuc.cl" > datos.txt
+    4  cp datos.txt  respaldo_datos.txt
+    5  cat datos.txt respaldo_datos.txt 
+    6  rm respaldo_datos.txt 
+    7  ls -l datos.txt 
+    8  chmod 600 datos.txt 
+    9  touch .registro
+   10  ls -la
+   11  echo "buscar" > buscar.log
+   12  find . -name "*log"
+   13  grep "gonzalez" datos.txt 
+Parte 2
+   14  echo "inicio" > entrada.txt
+   15  echo "fin" > final.txt
+   16  cat entrada.txt final.txt > completo.txt
+   17  tar -czf comprimido.tar.gz "*.txt"
+   18  tar -czf comprimido.tar.gz *.txt
+   19  mkdir descomprimido
+   20  tar -xzf comprimido.tar.gz -C descomprimido
+   21  echo "carla,20\nBruno,25\nSofia,19" > usuarios.csv
+   22  awk -F ',' "$2 > 21 {print $1 "," $2}" usuarios.csv
+   23  awk -F ',' "$2>21 {print $1 "," $2}" usuarios.csv
+   24  echo -e "Carla,20\nBruno,25\nSofia,19" > usuarios.csv
+   25  awk -F ',' "$2>21 {print $1 "," $2}" usuarios.csv
+   26  awk -F ',' '$2>21 {print $1 "," $2}' usuarios.csv
+   27  history > comandosprueba.txt

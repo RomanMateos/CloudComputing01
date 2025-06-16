@@ -1,0 +1,39 @@
+PARTE 1:COMANDOS BÁSICOS DE LINUX(20pts)
+
+1. mkdir examen_final
+   cd examen_final
+
+2. nano datos.txt
+
+3. cp datos.txt respaldo_datos.txt
+
+4. cat datos.txt respaldo_datos.txt
+
+5. rm respaldo_datos.txt
+
+6. ls -l datos.txt
+
+7. chmod 600 datos.txt
+
+8. nano .registro.txt
+  
+9. find / -name ".log"
+
+10. grep "Velozo" datos.txt
+
+PARTE 2: 
+
+1. echo Inicio > entrada.txt
+   echo Fin > final.txt
+   cat entrada.txt final.txt > completo.txt
+
+2. tar -czvf comprimido.tar.gz *.txt
+
+3. mkdir descomprimido && tar -xzvf comprimido.tar.gz -C descomprimido
+
+4. nano usuarios.csv
+   awk -F ',' '$2 > 21 {print $0}' usuarios.csv
+
+PARTE 3:
+
+

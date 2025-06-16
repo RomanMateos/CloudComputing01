@@ -1,0 +1,59 @@
+COMANDOS BASICOS:
+1.- Para crear carpeta mkdir mi_pre_prueba (enter)
+Ingresamos con cd mi_pre_prueba
+2.- Para crear el archivo:   echo  “Priscila Contreras Oyarzo” >  info.txt
+3.- Copiar archivo:  cp info.txt copia_info.txt
+4.- Mostrar contenido de ambos archivos : cat info.txt copia_info.txt
+5.- Eliminar: rm copia_info.txt
+6.- Mostrar permisos: ls -l info.txt
+7.- Cambiar permisos: chmod 600 info.txt
+8.- Crear archivo oculto y verificar existencia:  touch .priscilaContreras
+                                                                                           Ls -a (aquí debería aparecer lo ocultirijillo)
+9.- Find para buscar txt:  find  . -name “info.txt”
+10.- grep para buscar nombrecillo: grep  “Priscila Contreras Oyarzo” info.txt
+(debería salir en rojito).
+Pasos ready :), para salir cd –  o cd ..
+
+
+
+COMANDOS INTERMEDIOSSS
+
+1.	Crear archivos: echo "Hola" > a.txt echo "Mundo" > b.txt
+2.	Para comprimir archivitos: cat a.txt b.txt > saludo.txt y verificamos con cat saludo.txt 
+3.	Comprimimos todos los archivos .txt en 'archivos.tar.gz':
+tar -czf archivos.tar.gz *.txt
+4.	Extraemos  archivos tar.gz en capeta “extraídos”:
+(Creamos la carpeta primero con mkdir extraídos) y luego hacemos paso 4.
+tar -xzf archivos.tar.gz -C extraídos
+5.	awk para imprimir los names del archivo csv:
+(para esto debemos crear primero el archivo así {echo -e "Juan,23\nAna,19\nPedro,31" > nombres.csv})
+-Y ahora podemos imprimir los nombres:  awk -F',' '{print $1}' nombres.csv
+
+Y estaríamos ready again :)
+
+
+EJERCICIO PYTHON
+
+1.- Creamos el archivo con nano edad.py
+Dentro de esto realizamos el código que sería:
+nombre = input("Ingrese su nombre: ")
+edad = int(input("Ingrese su edad: "))
+anos_para_100 = 100 - edad
+print(f"Hola {nombre}, te faltan {anos_para_100} años para cumplir 100.")
+-Verificamos que el código corra de manera correcta para proseguir.
+Python3 edad.py -> aquí debería correr bien el código.
+
+2.- Guardamos el resultado: Yo realicé primero el código y post hacer correr etc, re abrí el nano edad.py y lo guardé como archivo .txt, por ende, al buscarlo o abrirlo con nano, aparece como edad.txt y .py.
+
+3.- Para mostrar el contenido sería cat edad.txt , abriría el contenido de mi archivo txt expresándolo así:
+"""Edad"""
+
+
+nombre = input("Ingrese su nombre: ")
+edad = int(input("Ingrese su edad: "))
+anos_para_100 = 100 - edad
+print(f"Hola {nombre}, te faltan {anos_para_100} años para cumplir 100.")
+
+Y estaríamos ready again x3 :)
+
+Este archivo fue creado primeramente en Word y pegado aquí. Espero estar bien sino, Turismo allá voy T.T
